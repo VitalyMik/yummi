@@ -1,0 +1,181 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat";
+  color: #774e2e;
+}
+.container {
+  /* border: 2px solid black; */
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+header {
+  /* background-color: lightgreen; */
+  padding-top: 30px;
+}
+h1 {
+  font-size: 110px;
+  line-height: 110px;
+  font-weight: 800;
+  margin: 0px;
+  margin-bottom: 40px;
+}
+h1 span {
+  color: #f37f34;
+}
+
+h2 {
+  font-size: 69px;
+  text-transform: uppercase;
+  margin: 0px;
+  margin-bottom: 70px;
+  line-height: 79px;
+}
+h2 span {
+  color: #f37f34;
+}
+p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.container h2{
+  text-align: center;
+  
+}
+
+.logo {
+  display: block;
+  width: 80px;
+  height: 80px;
+}
+nav {
+  display: flex;
+  align-items: center;
+}
+nav a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding-left: 50px;
+  color: #774e2e;
+  text-decoration: none;
+}
+.greating {
+  background-image: url(./mages/mops.jpg);
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-bottom: 205px;
+  padding-top: 160px;
+}
+.text {
+  width: 575px;
+}
+.btn {
+  margin-top: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  line-height: 26px;
+  color: #fff;
+  background-color: #774e2e;
+  border: none;
+  padding: 22px 42px;
+  font-family: ;
+  user-select: none;
+}
+
+.sweets__section {
+  background-color: #fff9ea;
+  padding: 20px 0px;
+  padding: 150px;
+}
+
+.card {
+  width: 370px;
+  text-align: center;
+  padding: 20px;
+  padding-top: 0px;
+  background-color: white;
+}
+
+.card img {
+  margin-bottom: 35px;
+  width: 100%;
+  height: 250px;
+}
+
+.card b {
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 31px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+}
+
+.add {
+  width: 575px;
+}
+.htext {
+  text-align: left;
+  margin-top: 44px;
+  margin-bottom: 30px;
+}
+ul {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  position: relative;
+  right: 10px;
+  margin-bottom: 43px;
+  margin-top: 20px;
+}
+.add b {
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.add p {
+  margin-bottom: 38px;
+}
+.advice {
+  background-image: url(./mages/порада.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  padding: 2px;
+}
+.downsection {
+  margin-top: 140px;
+}
+footer {
+  background-color: #774e2e;
+  margin-top: 150px;
+  height: 179px;
+}
+
+footer img {
+  width: 99px;
+  height: 99px;
+}
+footer p {
+  font-size: 36px;
+  line-height: 46.8px;
+  font-weight: 500;
+  color: #ffff;
+  text-align: center;
+}
+.futer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
